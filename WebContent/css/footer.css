@@ -1,0 +1,18 @@
+#footer{
+width:100%;
+	background:#ccffff;
+	height:300px;
+    position:relative;
+    top: 0; 
+    left: 0;
+    	background:#008040;
+
+}
+table.footercontent td{
+	
+	width:5in;
+	height:auto;
+	table-layout: auto;
+	top:0;
+	padding-left:30px;
+}

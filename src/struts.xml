@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+ 
+ 
+ <struts>
+ <package name="default" extends="struts-default">
+ <action name="home">
+ <result>index.jsp</result>
+ </action>
+ 
+ <action name="profile">
+ <result>profile.jsp</result>
+ </action>
+ 
+ <action name="search">
+ <result>search.jsp</result>
+ </action>
+ 
+ <action name="searchResult">
+ <result>searchResult.jsp</result>
+ </action>
+ 
+ 
+ 
+ <action name="login" class="action.LoginAction">
+ <result name="Customer">customer/welcome.jsp</result>
+ <result name="ServiceProvider">serviceProvider/welcome.jsp</result>
+ <result name="error">error.jsp</result>
+ <result name="input">index.jsp</result>
+ <result name="success">profile.jsp</result>
+ </action>
+ 
+ <action name="logout" class="action.LogoutAction">
+ <result name="success">index.jsp</result>
+ </action>
+ 
+ 
+ 
+ <action name="register" class="action.RegisterPreAction">
+ <result name="success">register.jsp</result>
+ <result name="error">error.jsp</result>
+ <result name="input">registerPros.jsp</result>
+ </action>
+
+ 
+  <action name="welcome" class="action.RegisterProcessingAction">
+ <result name="error">error.jsp</result>
+ <result name="input">register.jsp</result>
+ <result name="success">index.jsp</result>
+ </action>
+ 
+ <action name="forget" class="action.ForgetPasswordAction">
+ <result name="input">forgetPassword.jsp</result>
+ <result name="error">error.jsp</result>
+ </action>
+ 
+<action name="upload" class="action.UploadAction">
+<result name="success">profile.jsp</result>
+<result name="error">profile.jsp</result>
+</action>
+ 
+ <action name="changepassword" class="action.ChangePasswordAction">
+ <result name="success">profile.jsp</result>
+  <result name="input">profile.jsp</result>
+ </action>
+ 
+ <action name="deactivate" class="action.DeactivationAction">
+ <result name="success">profile.jsp</result>
+  <result name="error">error.jsp</result>
+ </action>
+ 
+ <action name="changekey" class="action.ChangeSecretKeyAction">
+ <result name="success">profile.jsp</result>
+ <result name="input">profile.jsp</result>
+ </action>
+ 
+ <action name="changeStatus" class="action.ChangeAvailabilityStatusAction">
+ <result name="success">profile.jsp</result>
+  <result name="error">error.jsp</result>
+ </action>
+ 
+ <action name="save" class="action.ChangeAvailabilityStatusAction">
+ <result name="success">index.jsp</result>
+ </action>
+  
+<action name="updateprofile" class="action.UpdateProfileAction">
+<result name="success">profile.jsp</result>
+<result name="input">profile.jsp</result>
+<result name="error">error.jsp</result>
+</action>
+ 
+ </package>
+ </struts>

@@ -1,0 +1,116 @@
+@CHARSET "ISO-8859-1";
+
+
+
+
+/* code for registerpros.jsp */
+#registerprosform{
+    position:relative;
+	border-style: groove;
+	width:450px;
+	height:2in;
+	margin-left: 4in;
+	margin-top: 3in;
+	box-shadow:1px 3px 5px 2px;
+	
+}
+#registerprosform .combo ,.gobtn {
+	width:4in;
+	height:50px;
+	color:gray;
+	font-size: 25px;
+	font-weight: bold;
+	border-style: outset;
+	margin-left: 15px;
+	box-shadow:1px 3px 5px 2px;
+	
+	
+}
+#registerprosform .gobtn:HOVER{
+	cursor: pointer;
+	
+}
+#registerprosform .reglabel{
+	font-size: 25px;
+}
+.errorMessage{
+	color:red;
+}
+
+
+
+
+
+/* code for register.jsp */
+
+
+
+
+
+#customerform{
+	height:auto;
+	border-style:groove;
+	margin-left:4.4in;
+	margin-top:2.5in;
+	width: 400px;
+	box-shadow:1px 3px 5px 2px;
+	position:relative;
+	padding-bottom: 20px;
+}
+#customerform .textfield{
+	width:350px;
+	height:35px;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	border-style: groove;
+	margin-left:15px;
+    box-shadow:1px 2px 5px 1px;
+}
+#customerform .btnsubmit{
+	width:150px;
+	height:40px;
+	border-radius:25px;
+	margin-left:60px;
+	float:left;
+	font-size:15px;
+	font-weight: bold;
+	border-top: 0px;
+	border-style:outset;
+
+}
+.btnsubmit{
+	margin-top:20px;
+	
+}
+.loginlink{
+	
+    margin-top:260px;
+	border-radius:25px;
+	margin-left:250px;
+	float:left;
+	font-size:15px;
+	font-weight: bold;
+	position:relative;
+	
+		
+}
+.btnsubmit:HOVER{
+	cursor: pointer;
+	color:red;
+}
+#formpane{
+	height:400px;
+	position:relative;
+
+}
+#link{
+	font-weight: bolder;
+
+}
+#link:hover{
+	color:red;
+	font-size: 15px;
+
+}
+

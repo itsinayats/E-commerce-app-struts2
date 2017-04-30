@@ -1,0 +1,79 @@
+@CHARSET "ISO-8859-1";
+
+#contentPane{
+	padding-top:100px;
+	padding-left:50px;
+	padding-right:30px;
+	
+
+}
+#profilepic{
+float:right;
+margin-right:30px;
+position:relative;
+width:300px;
+height:300px;
+margin-top:150px;
+border-radius:5px;
+}
+.txt{
+	background:transparent;
+	border-style: inset;
+}
+.txt:HOVER{
+	background:#e1e100;
+	border-style: inset;
+}
+
+
+
+
+#profile td{
+	font-size: 20px;
+	padding: 5px;
+	padding-left: 25px;
+	font-weight: bolder;
+	font-style: oblique;
+	
+}
+
+#profile td input,textarea{
+	font-size: 15px;
+	padding: 5px;
+	padding-left: 30px;
+	font-weight: bold;
+	
+	
+}
+#profile td textarea{
+	width:195px;	
+}
+#profile{
+	position:static;
+	padding-top:25px;
+	padding-bottom:25px;
+	background:url("../images/tissue.JPG");
+	border-radius:5px;
+	
+	
+
+}
+#exit,#save{
+    width:100px;
+	height:50px;
+background-repeat:no-repeat;
+	background-size:100px 50px;
+	border-style: none;
+	
+}
+#exit{
+	background-image: url("../images/icons/exit.png");
+}
+
+#save{
+	background-image: url("../images/icons/button-save-hi.png");
+	
+}
+	
+	
+	
